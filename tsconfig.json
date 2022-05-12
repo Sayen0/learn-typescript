@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "target": "es5",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
     "module": "commonjs",                                /* Specify what module code is generated. */
+    "strictNullChecks": true, // 严格空检查类型
+    "lib": ["ESNext", "DOM"] // 
   }
 }
